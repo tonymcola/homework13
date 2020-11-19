@@ -1,0 +1,11 @@
+public void onButtonCLicked1(View v)
+{
+    TextView myTextView1 = this.findViewById(R.id.myTextView1);
+    myTextView1.setText("Tony");
+}
+
+public void onButtonCLicked2(View v)
+{
+    TextView myTextView2 = this.findViewById(R.id.myTextView2);
+    myTextView2.setText("Mastrocola");
+}
